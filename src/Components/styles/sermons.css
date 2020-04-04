@@ -1,0 +1,135 @@
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 5px 10px;
+}
+.tabs .tab2{
+    text-align: center;
+}
+.tabs .tab2::after{
+content: "";
+width: 150px;
+height: 2px;
+background-color: #37436C;
+display: block;
+}
+
+.lattest-sermon{
+    background-image: url(../../images/ser.png);
+    height: 316px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 0px 10px 0 10px;
+    background-size: cover;
+    display: flex;
+    color: white;
+ 
+   
+}
+
+.lattest-sermon h1{
+    display: flex;
+    align-self: flex-end;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 24px;
+line-height: 28px;
+}
+
+.lattest-sermon h2{
+    display: flex;
+    align-self: flex-start;
+    justify-self:left;
+    margin-left: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 2px;
+    padding: 6px 14px 6px 14px;
+    background: #FB0606;
+border-radius: 20px;
+line-height: 20px;
+text-align: center;
+}
+
+.Popular-Sermons h1{
+    font-size: 36px;
+    padding: 10px;
+}
+
+.Popular-Sermons{
+   
+}
+
+.Popular-Sermons .post-img{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.owl-carousel .owl-item img {
+    width: 260px !important;
+    height: 197px;
+    border-radius: 10px !important;
+    padding: 10px 0 0 10px !important;
+    margin: 0 !important;
+}
+
+
+
+.Popular-Sermons .post-titl{
+    padding: 10px 5px 0 10px;
+font-weight: 900;
+font-size: 20px;
+line-height: 14px;
+display: flex !important;
+width: 100vw;
+margin-bottom: 0;
+}
+
+.Popular-Sermons .post-auto{
+    padding: 1px 5px 0px 10px;
+font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+display: flex !important;
+width: 100vw;
+margin-top: 5px;
+}
+
+.recents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recents .r-img{
+    width: 131px;
+    height: 114px;
+    border-radius: 5px;
+    padding: 10px;
+    background-size: contain;
+}
+
+ .textzs h1{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom:0;
+    margin-bottom:5px;
+    padding-right: 5px;
+  
+    }
+
+    .textzs h2{
+        font-size: 16px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-right: 5px;
+        }
+    
+
+    
+    .recents .r-img{
+        width: 300px;
+        }
+        

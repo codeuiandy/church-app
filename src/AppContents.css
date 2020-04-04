@@ -1,0 +1,203 @@
+.app-container{
+    width: 100vw !important;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #37436C;
+    height: 60px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+list-style-type: none;
+font-size: 24px;
+}
+
+.navbar ul li h1{
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+}
+
+.navbar ul li{
+    color: white;
+    font-size: 10px;
+}
+
+.grid-container{
+    width: 100vw;
+    display: grid;
+    grid-gap: 6px !important;
+    /* grid-template-columns: repeat(3,minmax(400px,1fr)); */
+    grid-template-areas: 'box1 box1'
+                          'box2 box3'
+                          'box4 box4'
+                          'box5 box6'
+    ;
+}
+
+.homepage-grid-child1{
+    background-image: url(images/saveimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    width: 100vw;
+    height: 192px;
+    margin: 0;
+    padding: 0;
+    grid-area: box1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.homepage-grid-child1 h1{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    color:  #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.homepage-grid-child1 p{
+color: rgba(255, 255, 255, 0.87)  ;
+font-style: normal;
+font-size: 12px;
+line-height: 14px;
+margin: 0;
+padding: 0 0 10px 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.homepage-grid-child1 h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.87)  ;
+    margin: 0;
+padding: 7px 0 2px 0;
+font-family: 'Roboto', sans-serif;
+
+    }
+
+.homepage-grid-child2{
+    background-image: url(images/Sermonplaceholder.png);
+    width: 50vw;
+    height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: box2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.homepage-grid-child2 h1{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
+.homepage-grid-child3{
+    background-image: url(images/GivePlaceholders.png);
+    width: 50vw;
+    height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: box3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.homepage-grid-child3 h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-grid-child4{
+    background-image: url(images/ActivitiesPlaceholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    width: 100vw;
+    height: 192px;
+    margin: 0;
+    padding: 0;
+    grid-area: box4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.homepage-grid-child4 h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-grid-child5{
+    background-image: url(images/BlogPlaceholder.png);
+    width: 50vw;
+ height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: box5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-grid-child5 h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-grid-child6{
+    background-image: url(images/PrayerRequestPlaceholder.png);
+    width: 50vw;
+ height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: box6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.homepage-grid-child6 h1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
