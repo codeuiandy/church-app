@@ -22,6 +22,7 @@ font-weight: bold;
 font-size: 27px;
 line-height: 42px;
 padding-left: 10px;
+
 }
 
 
@@ -149,6 +150,7 @@ margin-top: 5px;
         
 .poplarSermonHeader{
     padding: 0px 5px 0px 10px;
-    margin: 3px;
+    margin: 2px 2px 2px 2px;
     font-size: 27px;
+    line-height: 2;
 }
