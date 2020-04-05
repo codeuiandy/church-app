@@ -1,0 +1,60 @@
+i used css modules on this project 
+
+npm install css-loader style-loader --save-dev
+
+npm run eject
+
+module.exports = {
+  ...
+  module: {
+    rules: [
+      ...
+      {
+        test: /\.css$/i,
+        exclude: /node_modules/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
+          },
+        ],
+      },
+    ],
+  },
+  ...
+};
+
+
+paste this in the rules section in ur wepack config file
+
+{
+        test: /\.css$/i,
+        exclude: /node_modules/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
+          },
+        ],
+      },
+
+
+      .title {
+  color: blueviolet;
+}
+
+
+import React from 'react';
+import styles from './style.css';
+const App = ({ title }) => (
+  <div className={styles.title}>{title}</div>
+);
+export default App;
+
+refer url https://www.robinwieruch.de/react-css-modules

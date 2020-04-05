@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import  Styles from './App.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -14,9 +14,9 @@ function App() {
  
   return (
    
-    <div className="app">
-      <div className="skip">
-      <span><Link className="linkTo"  to="/AppData">SKIP</Link></span>
+    <div className={Styles.app}>
+      <div className={Styles.skip}>
+      <span><Link className={Styles.linkTo}  to="/AppData">SKIP</Link></span>
     </div>
    <OwlCarousel
     className="owl-theme"
@@ -25,29 +25,29 @@ function App() {
     margin={10}
   
 >
-  <div className="slideone">
+  <div className={Styles.slideone}>
     
     
     <h1>Happy Birthday Dear, wishing you greater and blessed years ahead</h1>
-    <div class="item res">
+    <div  className={`${Styles.item} ${Styles.res}`}>
     <img src={img1}/>
     </div>
     </div>
-    <div className="slideone">
+    <div className={Styles.slideone}>
     
     
     <h1>Happy Birthday Dear, wishing you greater and blessed years ahead</h1>
-    <div class="item res">
+    <div className={`${Styles.item} ${Styles.res}`}>
     <img src={img2}/>
     </div>
     </div>
 
 
-    <div className="slideone">
+    <div className={Styles.slideone}>
     
     
     <h1>Happy Birthday Dear, wishing you greater and blessed years ahead</h1>
-    <div class="item res">
+    <div  className={`${Styles.item} ${Styles.res}`}>
     <img src={img3}/>
     </div>
     </div>

@@ -27,7 +27,7 @@
 
 .res img{
   background-repeat: no-repeat;
-  width: 236px;
+  width:136px !important ;
   height: 233px;
 }
 .slideone{

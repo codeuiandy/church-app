@@ -1,4 +1,4 @@
-.app-container{
+.appcontainer{
     width: 100vw !important;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@ font-size: 24px;
     font-size: 10px;
 }
 
-.grid-container{
+.gridcontainer{
     width: 100vw;
     display: grid;
     grid-gap: 6px !important;
@@ -44,7 +44,7 @@ font-size: 24px;
     ;
 }
 
-.homepage-grid-child1{
+.homepagegridchild1{
     background-image: url(images/saveimg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@ font-size: 24px;
     padding-bottom: 10px;
 }
 
-.homepage-grid-child1 h1{
+.homepagegridchild1 h1{
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     line-height: 28px;
@@ -70,7 +70,7 @@ font-size: 24px;
     font-family: 'Roboto', sans-serif;
     }
 
-.homepage-grid-child1 p{
+.homepagegridchild1 p{
 color: rgba(255, 255, 255, 0.87)  ;
 font-style: normal;
 font-size: 12px;
@@ -80,7 +80,7 @@ padding: 0 0 10px 0;
 font-family: 'Roboto', sans-serif;
 }
 
-.homepage-grid-child1 h5{
+.homepagegridchild1 h5{
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -92,7 +92,7 @@ font-family: 'Roboto', sans-serif;
 
     }
 
-.homepage-grid-child2{
+.homepagegridchild2{
     background-image: url(images/Sermonplaceholder.png);
     width: 50vw;
     height: 179px;
@@ -107,14 +107,14 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.homepage-grid-child2 h1{
+.homepagegridchild2 h1{
     font-weight: bold;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     line-height: 28px;
 }
 
-.homepage-grid-child3{
+.homepagegridchild3{
     background-image: url(images/GivePlaceholders.png);
     width: 50vw;
     height: 179px;
@@ -128,14 +128,14 @@ font-family: 'Roboto', sans-serif;
     color: white;
 }
 
-.homepage-grid-child3 h1{
+.homepagegridchild3 h1{
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage-grid-child4{
+.homepagegridchild4{
     background-image: url(images/ActivitiesPlaceholder.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,14 +152,14 @@ font-family: 'Roboto', sans-serif;
     color: white;
 }
 
-.homepage-grid-child4 h1{
+.homepagegridchild4 h1{
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage-grid-child5{
+.homepagegridchild5{
     background-image: url(images/BlogPlaceholder.png);
     width: 50vw;
  height: 179px;
@@ -174,14 +174,14 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage-grid-child5 h1{
+.homepagegridchild5 h1{
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
 }
 
-.homepage-grid-child6{
+.homepagegridchild6{
     background-image: url(images/PrayerRequestPlaceholder.png);
     width: 50vw;
  height: 179px;
@@ -195,7 +195,7 @@ font-family: 'Roboto', sans-serif;
     color: white;
 }
 
-.homepage-grid-child6 h1{
+.homepagegridchild6 h1{
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;

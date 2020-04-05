@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './AppContents.css';
+import Styles from './AppContents.css';
 import Sermons from './Components/sermons'
 import  {Link} from 'react-router-dom'
 
@@ -7,8 +7,8 @@ export default class AppData extends Component {
     render() {
         return (
           
-      <div className="app-container">
-<div className="navbar">
+      <div className={Styles.appcontainer}>
+<div className={Styles.navbar}>
     <ul>
         <li><i style={{fontSize: '24px'}} className="fas fa-bars"></i></li>
       <li><h1>MOBILE CHURCH</h1></li>
@@ -22,28 +22,28 @@ export default class AppData extends Component {
 
   {/* <!-- grid section are you here to copy code or learn🤞🤞😂 --> */}
 
-  <div class="grid-container">
-    <div class="homepage-grid-child1">
+  <div class={Styles.gridcontainer}>
+    <div class={Styles.homepagegridchild1}>
                            <h1>Save Today</h1>
                            <h5>Proverbs 13:16 A wise man thinks ahead; </h5>
                            <p>a fool doesn’t, and even brags about it!</p>
     </div>
     <a>
-    <div className="homepage-grid-child2">
-        <h1><Link to="/sermons" >Sermons</Link></h1>
+    <div className={Styles.homepagegridchild2}>
+        <h1><Link style={{color:'white',textDecoration:'none'}} to="/sermons" >Sermons</Link></h1>
     </div>
 
     </a>
-    <div className="homepage-grid-child3">
+    <div className={Styles.homepagegridchild3}>
         <h1>Give</h1>
     </div>
-    <div className="homepage-grid-child4">
+    <div className={Styles.homepagegridchild4}>
         <h1>Events</h1>
     </div>
-    <div className="homepage-grid-child5">
+    <div className={Styles.homepagegridchild5}>
         <h1> Blog</h1>
     </div>
-    <div className="homepage-grid-child6">
+    <div className={Styles.homepagegridchild6}>
         <h1>Prayer<br/> Request</h1>
     </div>
 </div>

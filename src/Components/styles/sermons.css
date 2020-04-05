@@ -15,21 +15,32 @@ background-color: #37436C;
 display: block;
 }
 
-.lattest-sermon{
+.watch-live h1{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 42px;
+padding-left: 10px;
+}
+
+
+.lattestsermon{
     background-image: url(../../images/ser.png);
     height: 316px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    padding: 0px 10px 0 10px;
+    width: 100vw;
+  
     background-size: cover;
     display: flex;
     color: white;
+  
  
    
 }
 
-.lattest-sermon h1{
+.lattestsermon h1{
     display: flex;
     align-self: flex-end;
     margin-right: auto;
@@ -38,7 +49,7 @@ display: block;
 line-height: 28px;
 }
 
-.lattest-sermon h2{
+.lattestsermon h2{
     display: flex;
     align-self: flex-start;
     justify-self:left;
@@ -53,32 +64,35 @@ line-height: 20px;
 text-align: center;
 }
 
-.Popular-Sermons h1{
+.PopularSermons h1{
     font-size: 36px;
     padding: 10px;
 }
 
-.Popular-Sermons{
+.PopularSermons{
    
 }
 
-.Popular-Sermons .post-img{
-  padding: 0 !important;
-  margin: 0 !important;
-}
 
 .owl-carousel .owl-item img {
-    width: 260px !important;
+    width: 10px !important;
     height: 197px;
     border-radius: 10px !important;
-    padding: 10px 0 0 10px !important;
+    padding: 740px !important;
     margin: 0 !important;
 }
 
+.PopularSermons .postimg{
+    width: 275px !important;
+    height: 190px;
+    padding: 10px 10px 0px 5px;
+  }
+  
 
 
-.Popular-Sermons .post-titl{
-    padding: 10px 5px 0 10px;
+
+.PopularSermons .posttitl{
+    padding: 5px 5px 0 10px;
 font-weight: 900;
 font-size: 20px;
 line-height: 14px;
@@ -87,7 +101,7 @@ width: 100vw;
 margin-bottom: 0;
 }
 
-.Popular-Sermons .post-auto{
+.PopularSermons .postauto{
     padding: 1px 5px 0px 10px;
 font-weight: 400;
 font-size: 16px;
@@ -133,3 +147,8 @@ margin-top: 5px;
         width: 300px;
         }
         
+.poplarSermonHeader{
+    padding: 0px 5px 0px 10px;
+    margin: 3px;
+    font-size: 27px;
+}

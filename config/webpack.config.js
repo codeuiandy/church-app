@@ -427,6 +427,19 @@ module.exports = function(webpackEnv) {
             // of CSS.
             // By default we support CSS Modules with the extension .module.css
             {
+              test: /\.css$/i,
+              exclude: /node_modules/,
+              use: [
+                'style-loader',
+                {
+                  loader: 'css-loader',
+                  options: {
+                    modules: true,
+                  },
+                },
+              ],
+            },
+            {
               test: cssRegex,
               exclude: cssModuleRegex,
               use: getStyleLoaders({
