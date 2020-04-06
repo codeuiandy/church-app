@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Styles from './AppContents.css';
-import Sermons from './Components/sermons'
+import Tabs from './Components/tabpage'
 import  {Link} from 'react-router-dom'
 
 export default class AppData extends Component {
@@ -30,7 +30,7 @@ export default class AppData extends Component {
     </div>
     <a>
     <div className={Styles.homepagegridchild2}>
-        <h1><Link style={{color:'white',textDecoration:'none'}} to="/sermons" >Sermons</Link></h1>
+        <h1><Link style={{color:'white',textDecoration:'none'}} to="/Tabs" >Sermons</Link></h1>
     </div>
 
     </a>

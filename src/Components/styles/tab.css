@@ -1,0 +1,57 @@
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0px 5px 10px;
+}
+.tabs .tab2{
+    text-align: center;
+    margin-right: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.tabs .tab1{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.activetab1{
+    width: 123px;
+    height: 3px;
+    background-color: #37436C;
+    display: block;
+    position: absolute;
+    left: 0;
+    animation: act2 200ms ease-in;
+}
+
+.activetab2{
+    width: 123px;
+    height: 3px;
+    background-color: #37436C;
+    display: block;
+    position: absolute;
+   right: 0;
+   animation: act 200ms ease-in;
+}
+
+@keyframes act{
+    0%{
+        right: 300px;
+    }
+    100%{
+        right: 0;
+    }
+}
+
+@keyframes act2{
+    0%{
+        left: 300px;
+    }
+    100%{
+        left: 0;
+    }
+}
+

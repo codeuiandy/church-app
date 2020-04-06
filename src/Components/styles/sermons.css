@@ -1,20 +1,6 @@
-.tabs{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0px 5px 10px;
+*{
+    font-family: 'Roboto', sans-serif; 
 }
-.tabs .tab2{
-    text-align: center;
-}
-.tabs .tab2::after{
-content: "";
-width: 150px;
-height: 2px;
-background-color: #37436C;
-display: block;
-}
-
 .watch-live h1{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -94,12 +80,13 @@ text-align: center;
 
 .PopularSermons .posttitl{
     padding: 5px 5px 0 10px;
-font-weight: 900;
-font-size: 20px;
-line-height: 14px;
-display: flex !important;
-width: 100vw;
-margin-bottom: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    display: flex !important;
+    width: 100vw;
+    margin-bottom: 5px;
+    margin-top: 8px;
 }
 
 .PopularSermons .postauto{
@@ -118,7 +105,7 @@ margin-top: 5px;
     align-items: center;
 }
 
-.recents .r-img{
+.recents .rimg{
     width: 131px;
     height: 114px;
     border-radius: 5px;
@@ -144,13 +131,26 @@ margin-top: 5px;
     
 
     
-    .recents .r-img{
+    .recents .rimg{
         width: 300px;
         }
         
 .poplarSermonHeader{
     padding: 0px 5px 0px 10px;
-    margin: 2px 2px 2px 2px;
+    margin: 7px 2px 2px 2px;
     font-size: 27px;
+    line-height: 2;
+}
+
+.series{
+    padding: 0px 5px 0px 10px;
+    margin: 7px 2px 2px 2px;
+    font-size: 29px;
+    line-height: 2;
+}
+.recentsheader{
+    padding: 0px 5px 0px 10px;
+    margin: 7px 2px 2px 2px;
+    font-size: 29px;
     line-height: 2;
 }

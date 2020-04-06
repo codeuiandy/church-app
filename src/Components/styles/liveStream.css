@@ -1,0 +1,84 @@
+
+.watchlive h1{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 42px;
+padding-left: 10px;
+padding-bottom: 0;
+    margin-bottom: 1px;
+}
+
+.videocontainer img{
+    width: 100vw;
+  
+}
+
+.upcomingstream{
+    padding-top: 15px;
+}
+
+.upcomingstream h1{
+    font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+padding: 1px 5px 0 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+.upcomingstreamlivestreams{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 0px 10px;
+
+}
+
+.livestreamdate{
+    width: 41px;
+height: 41px;
+background: #FB0606;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.livestreamdate  .d{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+.livestreamdate  .m{
+    margin: 0 0 5px 0;
+    padding: 0 0 0px 0;
+    height: 20px;
+}
+
+.livestreamdateauth{
+    padding-left: 7px;
+    padding-top: 0;
+margin-top: 0;
+}
+
+.livestreamdateauth .fulldate{
+font-size: 13px;
+color: #000000;
+font-weight: 700;
+
+}
+
+.livestreamdateauth .autho{
+    font-size: 11px;
+    }
+
+.livestreamicon{
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import App from './App'
 import AppData from './AppData'
-import Sermons from './Components/sermons'
+import Tabs from './Components/tabpage'
 import  {BrowserRouter,Link,Route,Switch} from 'react-router-dom'
 
 export default function Linksd() {
@@ -12,7 +12,7 @@ export default function Linksd() {
             <Switch>
                 <Route exact="/" path="/" component={App}/>
             <Route exact="/AppData" path="/AppData" component={AppData}/>
-            <Route exact="/Sermons" path="/Sermons" component={Sermons}/>
+            <Route exact="/Tabs" path="/Tabs" component={Tabs}/>
             </Switch>
         </div>
         </BrowserRouter>
