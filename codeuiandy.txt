@@ -58,3 +58,8 @@ const App = ({ title }) => (
 export default App;
 
 refer url https://www.robinwieruch.de/react-css-modules
+
+
+git update
+ git remote add upstream https://github.com/codeuiandy/church-app.git
+ git push origin master

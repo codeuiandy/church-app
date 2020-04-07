@@ -1,0 +1,143 @@
+.previospagenav{
+    display: flex;
+ margin: 10px 0 10px 0;
+ }
+ 
+ .previospagenav .PreviousPage{
+ padding: 10px 0 10px 10px;
+  
+ 
+ }
+ 
+ .previospagenav .sermonhead387{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: 700;
+ }
+ 
+ .PreviousPage{
+     cursor: pointer;
+ }
+ 
+ .blogimg309{
+     width: 100vw;
+     height: 209px;
+    
+   
+ }
+ 
+ .sermondetails h1{
+     font-size: 25px;
+     line-height: 28px;
+     padding: 10px 5px 0 10px;
+     font-weight: 800;
+     margin: 0;
+     color: #000000;
+ }
+ 
+ .sermondetails h3{
+     font-size: 12px;
+     line-height: 28px;
+     padding: 3px 5px 0 10px;
+     font-weight: 500;
+     margin: 0;
+     color: rgba(0, 0, 0, 0.59);
+     letter-spacing: 2px;
+ }
+ 
+ .sermondetails h4{
+     font-size: 12px;
+     line-height: 28px;
+     padding: 5px 5px 0 10px;
+     font-weight: 700;
+     margin: 0;
+     line-height: 10px;
+     color: #000000;
+ }
+ 
+ .sermondetails div h1{
+     font-weight: 300;
+ font-size: 20px;
+ line-height: 14px;
+ color: rgba(0, 0, 0, 0.59);
+ padding-top: 25px;
+ 
+ 
+ }
+ 
+ .sharecontent9{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     border-top: 1px solid gray;
+     padding-top: 10px;
+     border-bottom: 1px solid gray;
+     padding-bottom: 10px;
+     line-height: 10px;
+ }
+ 
+ .sharecontent9 .imglisten{
+     padding-left: 10px;
+     width: 45px;
+     display: block;
+ }
+ 
+ 
+ .sharecontent9 .attr6{
+     padding-left: 10px;
+     width: 45px;
+     display: block;
+     font-weight: 700;
+     padding-top: 7px;
+ }
+ 
+ .sharecontent9 .imgshare{
+     padding-left: 12px;
+     width: 40px;
+     text-align: center;
+     display: block;
+ }
+ 
+ .sharecontent9 button{
+    color: white;
+ background: #FB0606;
+ border-radius: 15px 0 0 15px;
+ padding: 10px 18px 12px 18px ;
+ font-size: 17px;
+ text-align: center;
+ border: none;
+ margin-right: 13px;
+
+font-weight: 800;
+
+background: #FB0606;
+border-radius: 5px;
+ }
+ 
+ .morecontentfrompublisher h1{
+ font-weight: 700;
+ font-size: 23px;
+ padding-left: 10px;
+ padding-top: 12px;
+ padding-bottom: 4px;
+ 
+ }
+
+ #fontAwsome{
+     font-size: 25px ;
+   color: #000000;
+ }
+
+.fontp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poplarSermonHeader{
+    padding: 9px 3px 0px 10px;
+    margin: 0;
+    font-size: 24px;
+}

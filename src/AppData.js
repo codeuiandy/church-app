@@ -35,7 +35,7 @@ export default class AppData extends Component {
 
     </a>
     <div className={Styles.homepagegridchild3}>
-        <h1>Give</h1>
+        <h1><Link style={{color:'white',textDecoration:'none'}} to="/Give" >Give</Link></h1>
     </div>
     <div className={Styles.homepagegridchild4}>
         <h1>Events</h1>
