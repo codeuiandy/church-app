@@ -141,3 +141,25 @@ border-radius: 5px;
     margin: 0;
     font-size: 24px;
 }
+
+
+.blueBackground{
+    display: flex;
+ margin: 0px 0 0px 0;
+ background-color:#37436C;
+ color: white;
+padding: 5px;
+ }
+ 
+ .blueBackground .PreviousPage{
+ padding: 10px 0 10px 10px;
+  
+ 
+ }
+ 
+ .blueBackground .sermonhead387{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: 700;
+ }

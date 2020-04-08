@@ -1,3 +1,24 @@
+.imgheader{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 255, 0.082)), url(../../images/give-img.png);
+    width: 100vw;
+    height: 209px;
+    margin-top: 0;
+    padding-top: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   margin-bottom: 30px;
+  
+}
+.imgheader h1{
+    font-size: 17px;
+    width: 303px;
+    padding: 5px 5px 10px 5px;
+    color: white;
+ }
 .searchContainer {
     display: flex;
     flex: 1 1 300px;
@@ -5,11 +26,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    width: 80vw;
+    width: 75vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 20px;
   }
   
   #searchIcon {
@@ -20,6 +41,112 @@
     border: 0;
     padding: 0.5rem 0.5rem 0.5rem 0;
     flex: 1;
+   height: 50px;
+  
   }
   
-  
+  .label{
+    padding-left: 23px;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .paymentType{
+    display: flex;
+    padding-left: 25px;
+    padding-top: 36px;
+  }
+
+
+  .paymentType span{
+    width: 140px;
+    /* padding-top: 50px; */
+    /* margin-top: 20px; */
+  }
+
+  .paymentType :first-child {
+background-color: #37436C;
+padding: 10px;
+color: white;
+font-weight: 700;
+    text-align: center;
+    height: 33px;
+    /* vertical-align: 66px; */
+    font-size: 24px;
+    line-height: -2;
+    letter-spacing: 2px;
+  }
+
+  .paymentType :last-child {
+    background-color: white;
+    padding: 10px;
+    color: #37436C;;
+    font-weight: 700;
+        text-align: center;
+        height: 33px;
+        /* vertical-align: 66px; */
+        font-size: 24px;
+        line-height: -2;
+        letter-spacing: 2px;
+      }
+
+      .paymentType span{
+        border: 2px solid rgb(55, 70, 116);
+      }
+
+      .paymentBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .paymentBtn button{
+        width: 90vw;
+        background-color: #37436C;
+        padding: 15px;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+        margin-top: 48px;
+        border: none;
+      }
+
+      .showFild{
+        display: none;
+      }
+.wrap{
+  display: grid;
+      justify-content: center;
+      align-items: center;
+}
+      .hidedata{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+        background: #FFFFFF;
+border: 1px solid #37436C;
+box-sizing: border-box;
+position: relative;
+top: -18px;
+      
+      }
+
+      .wrap ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 1px;
+        padding-left: 3px;
+        padding-top: 7px;
+      
+      }
+
+      .wrap ul li{
+      
+        padding: 5px;
+      }
+
+      .wrap ul li:hover{
+      color: white;
+      background: #37436C;
+      }

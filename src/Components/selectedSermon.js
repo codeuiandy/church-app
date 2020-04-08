@@ -5,23 +5,16 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import serm from '../images/serm.png'
-import arrow from '../images/back-arrow.png'
 import img3 from '../images/img22.png'
-import img4 from '../images/listen.png'
-import img5 from '../images/share.png'
+import BackNav from './backNavbar'
 export default function selectedSermon() {
-    let back=()=>{
-       window.history.back()}
+   
     return (
    
         <div>
-<div className={style.previospagenav}>
-    <div className={style.PreviousPage} >
-        <img onClick={back}  src={arrow} alt=""/>
-    </div>
-    <div className={style.sermonhead387}>SERMONS</div>
-</div>
+      
 
+      <BackNav PageName='Sermons'/>
 <img  className={style.blogimg309} src={img3} alt="blog-img"/>
 
 <div className={style.sermondetails}>

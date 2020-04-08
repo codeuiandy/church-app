@@ -28,24 +28,30 @@ export default class AppData extends Component {
                            <h5>Proverbs 13:16 A wise man thinks ahead; </h5>
                            <p>a fool doesn’t, and even brags about it!</p>
     </div>
-    <a>
+  
+  <Link style={{color:'white',textDecoration:'none'}} to="/Tabs">
     <div className={Styles.homepagegridchild2}>
-        <h1><Link style={{color:'white',textDecoration:'none'}} to="/Tabs" >Sermons</Link></h1>
+        <h1>Sermons</h1>
     </div>
+    </Link>
 
-    </a>
+
+
+    <Link style={{color:'white',textDecoration:'none'}} to="/Give">
     <div className={Styles.homepagegridchild3}>
-        <h1><Link style={{color:'white',textDecoration:'none'}} to="/Give" >Give</Link></h1>
+        <h1>Give</h1>
     </div>
+    </Link>
     <div className={Styles.homepagegridchild4}>
         <h1>Events</h1>
     </div>
+    
     <div className={Styles.homepagegridchild5}>
         <h1> Blog</h1>
     </div>
-    <div className={Styles.homepagegridchild6}>
+    <Link style={{color:'white',textDecoration:'none'}} to="/Prayer"><div className={Styles.homepagegridchild6}>
         <h1>Prayer<br/> Request</h1>
-    </div>
+    </div></Link>
 </div>
 </div>
 
