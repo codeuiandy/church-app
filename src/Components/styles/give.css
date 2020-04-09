@@ -39,7 +39,7 @@
   
   .searchBox {
     border: 0;
-    padding: 0.5rem 0.5rem 0.5rem 0;
+ 
     flex: 1;
    height: 50px;
   
@@ -55,7 +55,7 @@
     display: flex;
     padding-left: 25px;
     padding-top: 36px;
-    width: 80vw;
+  
   }
 
 
@@ -111,6 +111,7 @@ font-weight: 700;
         margin-top: 48px;
         border: none;
         margin-bottom: 25px;
+        border-radius: 5px
       }
 
       .showFild{

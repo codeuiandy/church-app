@@ -40,7 +40,7 @@ export default class AppData extends Component {
     <ul>
         <li onClick={this.showdata}><img src={`${this.state.showData ? harm : x}`}/></li>
       <li><h1>MOBILE CHURCH</h1></li>
-        <li><img  style={{marginRight:'50px'}} src={setting}/></li>
+        <li><img  style={{marginRight:'20px'}} src={setting}/></li>
     </ul>
 
 
