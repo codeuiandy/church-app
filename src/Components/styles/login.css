@@ -1,0 +1,112 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+    background-image: url(../../images/bible.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form form{
+    display: grid;
+    
+
+}
+
+.form form h1{
+ color: white;
+   font-size: 23px;
+    
+
+}
+
+.form form label{
+    display: block;
+    color: white;
+    padding-bottom: 5px;
+    
+}
+
+.form form input{
+    display: block;
+    width: 80vw;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+border-radius: 6px;
+color: white;
+font-size: 20px;
+background-color: rgba(255, 0, 0, 0);
+    
+}
+
+.email{
+margin-bottom: 27px;
+margin-top: 5px;
+}
+.button button{
+    background: rgba(255, 255, 255, 0.671);
+border-radius: 6px;
+    width: 80vw;
+    color: #37436C;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.back::before{
+    content: '< ';
+    font-size: 32px;
+}
+.lostDetails{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lostDetails .span1{
+    color: white;
+
+    margin: 5px;
+}
+
+.lostDetails .span2{
+    color: red;
+  
+}
+.register{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.register{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register .span1{
+    color: white;
+
+    margin: 5px;
+}
+
+.register .span2{
+    color: red;
+  
+}
+
+.fullname{
+    display: flex;
+    width: 80vw;
+}
+
+.fullname input{
+    width: 38vw !important;
+    margin-right: 7px;
+}

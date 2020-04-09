@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Linksd from './Linksd';
+import Controller from './Controller';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Linksd />
+    <Controller />
   </React.StrictMode>,
   document.getElementById('root')
 );

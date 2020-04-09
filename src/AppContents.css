@@ -1,6 +1,6 @@
 .appcontainer{
     width: 100vw !important;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .navbar{
     background-color: #37436C;
@@ -200,4 +200,68 @@ font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    top: 101px;
+     bottom: 0;
+     left: 0;
+     width: 60vw;
+     height: 80vh;
+     background-color: white;
+     
+     animation: hideu 400ms ease-in-out forwards;}
+
+.hidedata{
+ 
+  display: none;
+}
+@keyframes hideu{
+    0%{
+        transform: translateX(-130px);
+    }
+
+    100%{
+        transform: translateX(0px);
+        border-radius: 0 10px 10px 0;
+    
+    }
+
+  
+}
+
+@keyframes hideume{
+    0%{
+        transform: translateX(130px);
+    }
+
+    100%{
+        transform: translateX(0px);
+        border-radius: 0 10px 10px 0;
+    
+    }
+}
+
+.navdata{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navdata li{
+ font-size: 16px;
+ padding: 10px;
+color: #37436C;
+font-weight: 800;
+
+}
+
+.navdata li::after{
+    content: '>';
+position: absolute;
+right: 0;
+font-size: 19px;
+padding-right: 10px;
 }

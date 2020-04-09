@@ -1,0 +1,28 @@
+.container{
+    background-color: #37436C;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container img{
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 60vw;
+    padding-bottom: 30px;
+}
+
+.container button{
+    width: 80vw;
+    padding: 16px 7px 20px 3px;
+    border-radius: 102px 102px 102px 102px;
+    font-size: 21px;
+    margin: 13px;
+    text-align: center;
+    outline: none;
+    color: #37436C;
+    font-weight: 600;filter: drop-shadow(-7px -2px 15px rgba(85, 85, 85, 0.322));
+}

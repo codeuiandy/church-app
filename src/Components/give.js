@@ -75,7 +75,7 @@ export default class give extends Component {
     height: '70px'}}>
 <div class={styles.searchContainer}>
 <img style={{width:'15px'}} id={styles.searchIcon} src={naira}/>
-   <input class={styles.searchBox} type="number" />
+   <input  class={styles.searchBox} type="number" />
 
    </div>
 

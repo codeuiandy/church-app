@@ -1,0 +1,127 @@
+.heroImg{
+    background-image: url(../../images/bk.png);
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.con{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.con .date{
+color: white;
+font-size: 47px;
+font-weight: 600;
+}
+
+.con .searchImg{
+font-size: 28px;
+background-repeat: no-repeat;
+color: white;
+padding-top: 12px;
+
+}
+.line{
+   
+   width: 100vw;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line span{
+    width: 95vw;
+    height: 2px;
+    background: white;
+}
+
+.blogtext h1{
+    color: white;
+    width: 80vw;
+    font-size: 28px;
+    padding: 10px 5px 5px 15px;
+    font-weight: 600;
+}
+
+.extra i{
+    color: white;
+    font-size: 20px;
+   
+}
+
+.extra{
+    padding-left: 16px;
+}
+
+.extra :first-child{
+    padding-right: 11px;
+}
+
+.extra :last-child{
+    padding-left: 11px;
+    color: white;
+    font-size: 20px;
+}
+
+.blogupdates{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.blogupdates h1{
+    font-size: 12px;
+    width: 50vw;
+}
+
+.blogupdates img{
+    width: 173px;
+    /* height: 100px; */
+    height: 171px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.blogupdates h1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.blogupdates i {
+    color: #C4C4C4;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.blogupdates .dat {
+    color: #C4C4C4;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.lineBlack{
+
+
+}
+
+.lineBlack{
+   
+    width: 100vw;
+     text-align: center;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .lineBlack span{
+     width: 100vw;
+     height: 1px;
+     background: black;
+    margin-top: 15px;
+ }
