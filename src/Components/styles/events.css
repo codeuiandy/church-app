@@ -17,10 +17,10 @@
 }
 
 .title img{
-    width: 27px;
-    height: 31px;
+    width: 22px;
+    height: 27px;
     background-size: contain;
-    padding-top: 17px;
+    padding-top: 24px;
     background-repeat: no-repeat;
 }
 
@@ -62,15 +62,16 @@
 }
 
 .event div img{
-    width: 44px;
-    height: 44px;
+    width: 39px;
+    height: 40px;
     margin-right: 14px;
+    background-size: contain;
 }
 
 .about h1{
 color: #000000;
 font-size: 22px;
-padding: 27px 10px 0px 20px;
+padding: 41px 10px 0px 20px;
 letter-spacing: 1px;
 font-weight: 700;
 margin: 0;
