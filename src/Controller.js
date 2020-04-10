@@ -10,6 +10,7 @@ import Account from './Components/account'
 import CreateAccount from './Components/CreateAccount'
 import Login from './Components/Login'
 import Blog from './Components/blog'
+import Event from './Components/event'
 import  {BrowserRouter,Link,Route,Switch} from 'react-router-dom'
 
 export default function Linksd() {
@@ -29,6 +30,7 @@ export default function Linksd() {
             <Route exact="/CreateAccount" path="/CreateAccount" component={CreateAccount}/>
             <Route exact="/Login" path="/Login" component={Login}/>
             <Route exact="/Blog" path="/Blog" component={Blog}/>
+            <Route exact="/Event" path="/Event" component={Event}/>
         
             </Switch>
         </div>

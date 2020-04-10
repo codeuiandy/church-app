@@ -70,9 +70,12 @@ export default class AppData extends Component {
         <h1>Give</h1>
     </div>
     </Link>
-    <div className={Styles.homepagegridchild4}>
-        <h1>Events</h1>
+
+    <Link className={Styles.homepagegridchild4} style={{color:'white',textDecoration:'none'}} to="/Event">
+    <div >
+        <h1>Event</h1>
     </div>
+    </Link>
     
     <Link style={{color:'white',textDecoration:'none'}} to="/Blog"><div className={Styles.homepagegridchild5}>
         <h1>Blog</h1>

@@ -1,0 +1,200 @@
+.eventHeader{
+    background-image: url(../../images/shape.png);
+    background-size: cover;
+    width: 100vw;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title img{
+    width: 27px;
+    height: 31px;
+    background-size: contain;
+    padding-top: 17px;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    color: white;
+    padding-left: 6px;
+    letter-spacing: 2px;
+}
+
+.date{
+    color: white;
+    font-size: 23px;
+    padding: 36px 10px 10px 20px;
+ 
+}
+
+.event{
+    background-image: url(../../images/eventimg.png);
+    width: 90vw;
+    height: 132px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:flex-end;
+    align-items: flex-end;
+    position: relative;
+    bottom: 116px;
+    border-radius: 10px;
+  
+}
+
+.event div{
+    position: relative;
+    top: 22px;
+}
+
+.event div img{
+    width: 44px;
+    height: 44px;
+    margin-right: 14px;
+}
+
+.about h1{
+color: #000000;
+font-size: 22px;
+padding: 27px 10px 0px 20px;
+letter-spacing: 1px;
+font-weight: 700;
+margin: 0;
+}
+
+
+    .about h3{
+        color:#6D6A6A;
+        font-size: 19px;
+        padding: 5px 10px 16px 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin: 0;
+        }
+
+
+        .heroImg{
+            background-image: url(../../images/bk.png);
+            width: 100vw;
+            height: 40vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 20px;
+        }
+        
+        .con{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        
+        .con .date{
+        color: white;
+        font-size: 47px;
+        font-weight: 600;
+        }
+        
+        .con .searchImg{
+        font-size: 28px;
+        background-repeat: no-repeat;
+        color: white;
+        padding-top: 12px;
+        
+        }
+        .line{
+           
+           width: 100vw;
+            text-align: center;
+            display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .line span{
+            width: 95vw;
+            height: 2px;
+            background: white;
+        }
+        
+        .blogtext h1{
+            color: white;
+            width: 80vw;
+            font-size: 18px;
+            padding: 10px 5px 5px 15px;
+            font-weight: 600;
+        }
+        
+        .extra i{
+            color: white;
+            font-size: 18px;
+           
+        }
+        
+        .extra{
+            padding-left: 16px;
+        }
+        
+        .extra :first-child{
+            padding-right: 11px;
+        }
+        
+        .extra :last-child{
+            padding-left: 11px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .eventupdate{
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+        }
+        
+        .eventupdate h1{
+            font-size: 12px;
+            width: 50vw;
+         
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0px 5px 5px 11px;
+    font-weight: 600;
+        }
+        
+        .eventupdate img{
+            width: 164px;
+            /* height: 100px; */
+            height: 143px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 17px;
+            padding: 10px 10px 10px 21px;
+        }
+        
+        .eventupdate h1{
+            padding-top: 10px;
+            font-size: 17px;
+        }
+        
+        .eventupdate    .eventDate{
+        font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    color: #6D6A6A;
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+      }
+   
